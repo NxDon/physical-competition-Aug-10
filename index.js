@@ -1,5 +1,5 @@
 function findNum(arr) {
-    return arr.filter((elem, index, array) => {
-        return array.indexOf(elem) === arr.lastIndexOf(elem);
+    return arr.filter((elem) => {
+        return arr.indexOf(elem) === arr.lastIndexOf(elem);
     });
 }
